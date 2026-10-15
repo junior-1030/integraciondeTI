@@ -1,238 +1,440 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
-                    </ul>
-                </div>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="CHUGUN TI - Soluciones de Integración de Tecnologías de Información, Gestión de Sistemas y Bases de Datos Empresariales" />
+    <meta name="author" content="CHUGUN TI Development Team" />
+    <title>CHUGUN TI | Soluciones Tecnológicas & Integración de Sistemas</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Estilos Personalizados Empresariales -->
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+<body id="page-top" style="font-family: 'Plus Jakarta Sans', sans-serif;">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#page-top">
+                <i class="fas fa-layer-group text-warning fs-3 me-2"></i>
+                <span style="font-family: 'Outfit', sans-serif; letter-spacing: -0.02em;">CHUGUN <span class="text-warning">TI</span></span>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Abrir navegación">
+                Menú <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#page-top">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plataforma">Plataforma</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#infraestructura">Infraestructura</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a class="btn btn-warning text-dark fw-bold px-3 py-2 rounded-pill shadow" href="../CRUD/index.php">
+                            <i class="fas fa-chart-pie me-1"></i> Panel del Sistema
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <!--
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <header class="masthead-custom text-center text-white" id="inicio">
+        <div class="container px-4 px-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hero-badge">
+                        <i class="fas fa-bolt text-warning"></i> Soluciones en Integración de TI 2026
+                    </div>
+                    <h1 class="hero-title">
+                        Transformamos Datos en <span class="text-warning">Inteligencia Operativa</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Diseñamos, integramos y optimizamos sistemas corporativos conectados a motores de bases de datos de alta velocidad, garantizando continuidad de negocio, seguridad y control centralizado.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a class="btn btn-warning btn-lg fw-bold px-4 py-3 shadow rounded-pill text-dark" href="../CRUD/index.php">
+                            <i class="fas fa-users-gear me-2"></i> Acceder al Panel de Control
+                        </a>
+                        <a class="btn btn-outline-light btn-lg fw-bold px-4 py-3 rounded-pill" href="#plataforma">
+                            <i class="fas fa-desktop me-2"></i> Conocer la Plataforma
+                        </a>
                     </div>
                 </div>
             </div>
-        </header>
--->
-<header class="masthead" style="background: linear-gradient(135deg, #1e3c72, #2a5298);">
-  <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-    <div class="d-flex justify-content-center">
-      <div class="text-center text-white">
-        <!-- Recuadro CHUGUN -->
-        <div style="
-          display: inline-block;
-          background: rgba(255,255,255,0.1);
-          border: 2px solid #ffc107;
-          padding: 15px 30px;
-          border-radius: 15px;
-          font-size: 2rem;
-          font-weight: bold;
-          letter-spacing: 4px;
-          color: #ffc107;
-          text-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
-          margin-bottom: 25px;
-        ">
-          CHUGUN
         </div>
+    </header>
 
-        <h1 class="mx-auto my-0 text-uppercase" style="letter-spacing: 3px;">Mi Sitio Pro</h1>
-        <h2 class="text-white-50 mx-auto mt-3 mb-4">Innovación, Diseño y Tecnología en un solo lugar.</h2>
-        <a class="btn btn-warning btn-lg fw-bold shadow" href="#about" style="transition: 0.3s;">Comenzar</a>
-      </div>
-    </div>
-  </div>
-</header>
+    <!-- ================= METRICS TICKER ================= -->
+    <section class="metrics-ticker">
+        <div class="container px-4 px-lg-5">
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="metric-item">
+                        <div class="metric-number">99.98%</div>
+                        <div class="metric-label"><i class="fas fa-server me-1"></i> Uptime Apache</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="metric-item">
+                        <div class="metric-number">&lt; 1 ms</div>
+                        <div class="metric-label"><i class="fas fa-database me-1"></i> Latencia MariaDB</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="metric-item">
+                        <div class="metric-number">100%</div>
+                        <div class="metric-label"><i class="fas fa-shield-alt me-1"></i> Sentencias PDO</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="metric-item">
+                        <div class="metric-number">24/7</div>
+                        <div class="metric-label"><i class="fas fa-clock me-1"></i> Monitoreo Activo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+    <!-- ================= PLATAFORMA SHOWCASE ================= -->
+    <section class="platform-section text-white" id="plataforma">
+        <div class="container px-4 px-lg-5">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-5">
+                    <div class="badge bg-primary bg-opacity-25 text-primary border border-primary border-opacity-25 px-3 py-2 rounded-pill mb-3">
+                        <i class="fas fa-cubes me-1"></i> Módulo Central de Administración
+                    </div>
+                    <h2 class="display-6 fw-bold mb-4" style="font-family: 'Outfit', sans-serif;">
+                        NEXUS TI: Gestión de Recursos & Usuarios en Tiempo Real
+                    </h2>
+                    <p class="text-white-50 mb-4" style="line-height: 1.7;">
+                        Nuestra arquitectura integra una base de datos relacional MySQL/MariaDB con un panel reactivo que permite administrar cuentas, roles y auditoría sin fricción ni recargas innecesarias.
+                    </p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-warning fs-5 me-3"></i>
+                            <span>Búsqueda instantánea en vivo por nombre, correo y teléfono.</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-warning fs-5 me-3"></i>
+                            <span>Transacciones seguras vía POST protegidas contra inyecciones SQL.</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-warning fs-5 me-3"></i>
+                            <span>Exportación automatizada de padrones a formato CSV en un clic.</span>
+                        </li>
+                    </ul>
+                    <a class="btn btn-warning fw-bold px-4 py-2 rounded-pill shadow text-dark" href="../CRUD/index.php">
+                        <i class="fas fa-external-link-alt me-1"></i> Abrir Panel Administrativo
+                    </a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="mockup-wrapper">
+                        <img src="assets/img/tech-dashboard.jpg" alt="Panel de Control NEXUS TI" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SERVICIOS Y SOLUCIONES ================= -->
+    <section class="services-section" id="servicios">
+        <div class="container px-4 px-lg-5">
+            <div class="text-center mb-5">
+                <div class="badge bg-warning bg-opacity-10 text-dark border border-warning border-opacity-50 px-3 py-2 rounded-pill mb-3 fw-bold">
+                    NUESTROS SERVICIOS
+                </div>
+                <h2 class="display-6 fw-bold text-dark" style="font-family: 'Outfit', sans-serif;">
+                    Soluciones Tecnológicas de Extremo a Extremo
+                </h2>
+                <p class="text-muted mx-auto" style="max-width: 650px;">
+                    Brindamos soporte especializado para empresas e instituciones que requieren modernizar su ecosistema de TI con estándares de vanguardia.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 class="service-title">Integración de Sistemas</h3>
+                        <p class="service-text">
+                            Conectamos plataformas heterogéneas, servicios web y protocolos de comunicación para centralizar tus flujos de información en un solo punto.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="service-title">Bases de Datos MySQL</h3>
+                        <p class="service-text">
+                            Modelado relacional, normalización, optimización de índices y respaldos estructurados con soporte íntegro para esquemas UTF-8 mb4.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <h3 class="service-title">Ciberseguridad & PDO</h3>
+                        <p class="service-text">
+                            Blindaje aplicativo mediante sentencias preparadas, saneamiento estricto de entradas, mitigación de CSRF y control de privilegios.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="service-title">Servidores & Cloud</h3>
+                        <p class="service-text">
+                            Configuración y puesta a punto de entornos Apache, XAMPP y servidores en la nube con balanceo de carga y alta tolerancia a fallos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="service-title">Dashboards de Control</h3>
+                        <p class="service-text">
+                            Visualización de métricas en tiempo real, KPIs de rendimiento de infraestructura y reportes exportables para toma de decisiones estratégicas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="service-title">Soporte & Auditoría TI</h3>
+                        <p class="service-text">
+                            Supervisión continua, detección temprana de cuellos de botella y asesoría técnica para la evolución continua de proyectos de software.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
+        </div>
+    </section>
+
+    <!-- ================= INFRAESTRUCTURA & CASOS ================= -->
+    <section class="projects-section bg-light py-5" id="infraestructura">
+        <div class="container px-4 px-lg-5">
+            <div class="text-center mb-5">
+                <div class="badge bg-secondary bg-opacity-10 text-dark border px-3 py-2 rounded-pill mb-2 fw-bold">
+                    INFRAESTRUCTURA DE CLASE MUNDIAL
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h2 class="display-6 fw-bold" style="font-family: 'Outfit', sans-serif;">Capacidad Tecnológica & Metodología</h2>
+            </div>
+
+            <!-- Fila 1: Servidores -->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center shadow-sm rounded-4 overflow-hidden bg-white">
+                <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid w-100" src="assets/img/cloud-infra.jpg" alt="Centro de Datos y Servidores" style="max-height: 420px; object-fit: cover;" />
                 </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-lg-5 p-4 p-lg-5">
+                    <div class="featured-text">
+                        <span class="badge bg-primary text-white mb-2">Conectividad Total</span>
+                        <h4 class="fw-bold mb-3">Infraestructura de Datos de Alto Rendimiento</h4>
+                        <p class="text-black-50 mb-4">
+                            Nuestros nodos de procesamiento soportan transacciones concurrentes con tiempos de respuesta de milisegundos, manteniendo la integridad referencial en todo momento.
+                        </p>
+                        <a href="#contacto" class="btn btn-outline-dark btn-sm rounded-pill px-3">Solicitar Diagnóstico</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+
+            <!-- Fila 2: Equipo -->
+            <div class="row gx-0 justify-content-center shadow-sm rounded-4 overflow-hidden bg-white align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <img class="img-fluid w-100" src="assets/img/team-office.jpg" alt="Equipo de Ingeniería" style="max-height: 420px; object-fit: cover;" />
+                </div>
+                <div class="col-lg-6 order-lg-1 p-4 p-lg-5">
+                    <span class="badge bg-success text-white mb-2">Ingeniería Colaborativa</span>
+                    <h4 class="fw-bold mb-3">Desarrollo Ágil & Estándares de la Industria</h4>
+                    <p class="text-black-50 mb-4">
+                        Aplicamos metodologías ágiles, integración continua con Git y buenas prácticas de desarrollo para construir soluciones mantenibles, legibles y escalables a largo plazo.
+                    </p>
+                    <a href="../CRUD/index.php" class="btn btn-primary btn-sm rounded-pill px-3">Ver Implementación</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACTO Y FORMULARIO ================= -->
+    <section class="contact-section-custom" id="contacto">
+        <div class="container px-4 px-lg-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <div class="badge bg-warning bg-opacity-25 text-warning border border-warning border-opacity-50 px-3 py-2 rounded-pill mb-3 fw-bold">
+                        CONTÁCTANOS
+                    </div>
+                    <h2 class="display-6 fw-bold mb-3" style="font-family: 'Outfit', sans-serif;">¿Listo para Integrar tus Tecnologías?</h2>
+                    <p class="text-white-50">
+                        Escríbenos para recibir asesoría personalizada sobre integración de bases de datos, desarrollo de sistemas o implementación de soluciones en tu organización.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="contact-card-box">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Oficina Corporativa</h4>
+                        <p class="text-white-50 mb-0">Torre de Tecnologías Piso 4<br>Av. Insurgentes Sur 1200, CDMX, México</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-card-box">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Correo Electrónico</h4>
+                        <p class="text-white-50 mb-0">
+                            <a href="mailto:contacto@chugunti.com" class="text-warning text-decoration-none">contacto@chugunti.com</a><br>
+                            <a href="mailto:soporte@chugunti.com" class="text-white-50 text-decoration-none">soporte@chugunti.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-card-box">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Línea Telefónica</h4>
+                        <p class="text-white-50 mb-0">
+                            +52 (55) 8421-9900<br>
+                            <span class="text-success small"><i class="fas fa-circle fs-6"></i> Lun - Vie, 9:00 a 18:00</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario de Contacto Real -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card-custom">
+                        <h3 class="fw-bold text-center mb-4" style="font-family: 'Outfit', sans-serif;">Envíanos un Mensaje</h3>
+                        
+                        <div id="contactSuccessAlert" class="alert alert-success d-none text-center" role="alert">
+                            <i class="fas fa-check-circle me-2 fs-5"></i>
+                            <strong>¡Mensaje Enviado con Éxito!</strong> Un ingeniero especialista de CHUGUN TI se comunicará contigo en menos de 24 horas.
+                        </div>
+
+                        <form id="publicContactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-white-50 small">Nombre Completo *</label>
+                                    <input type="text" class="form-control form-control-custom" id="cNombre" placeholder="Ej. Juan Pérez" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-white-50 small">Correo Electrónico *</label>
+                                    <input type="email" class="form-control form-control-custom" id="cEmail" placeholder="juan@empresa.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-white-50 small">Teléfono de Contacto</label>
+                                    <input type="tel" class="form-control form-control-custom" id="cTel" placeholder="+52 55 1234 5678">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-white-50 small">Asunto del Proyecto *</label>
+                                    <input type="text" class="form-control form-control-custom" id="cAsunto" placeholder="Ej. Integración de BD y CRUD" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-white-50 small">Mensaje / Requerimientos *</label>
+                                    <textarea class="form-control form-control-custom" id="cMensaje" rows="4" placeholder="Describe brevemente tus necesidades técnicas..." required></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-warning btn-lg fw-bold px-5 rounded-pill shadow text-dark">
+                                        <i class="fas fa-paper-plane me-2"></i> Enviar Mensaje
+                                    </button>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
+
+            <!-- Redes Sociales -->
+            <div class="social d-flex justify-content-center gap-3 mt-5">
+                <a class="mx-2 text-warning fs-4" href="https://github.com/junior-1030/integraciondeTI" target="_blank" title="GitHub del Proyecto"><i class="fab fa-github"></i></a>
+                <a class="mx-2 text-warning fs-4" href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a class="mx-2 text-warning fs-4" href="https://twitter.com" target="_blank" title="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer-custom">
+        <div class="container px-4 px-lg-5">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="text-white fw-bold mb-1" style="font-family: 'Outfit', sans-serif;">
+                        <i class="fas fa-layer-group text-warning me-2"></i>CHUGUN TI
+                    </h5>
+                    <p class="small text-white-50 mb-0">
+                        Proyecto de Integración de Tecnologías de Información &bull; Universidad / XAMPP Stack
+                    </p>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="small text-white-50 mb-1">
+                        &copy; 2026 CHUGUN TI Solutions. Todos los derechos reservados.
+                    </p>
+                    <div class="small">
+                        <a href="../CRUD/index.php" class="footer-link me-3">Panel Administrativo</a>
+                        <a href="http://localhost/phpmyadmin" target="_blank" class="footer-link me-3">phpMyAdmin</a>
+                        <a href="#contacto" class="footer-link">Soporte Técnico</a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-</html>
+        </div>
+    </footer>
 
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Template JS -->
+    <script src="js/scripts.js"></script>
+    
+    <!-- Script del Formulario de Contacto -->
+    <script>
+        document.getElementById('publicContactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Enviando...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                document.getElementById('contactSuccessAlert').classList.remove('d-none');
+                this.reset();
+                btn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Enviar Mensaje';
+                btn.disabled = false;
+                document.getElementById('contactSuccessAlert').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 800);
+        });
+    </script>
+</body>
+</html>
