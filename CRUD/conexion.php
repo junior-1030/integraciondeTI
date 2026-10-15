@@ -1,4 +1,9 @@
 <?php
+// Iniciar sesión si no está activa
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 $host = 'localhost';
 $db   = 'crud_db';
 $user = 'root';
@@ -12,9 +17,13 @@ $options = [
     PDO::ATTR_EMULATE_PREPARES   => false,
 ];
 
+$conexion_exitosa = false;
+$error_conexion = null;
+
 try {
-     $pdo = new PDO($dsn, $user, $pass, $options);
+    $pdo = new PDO($dsn, $user, $pass, $options);
+    $conexion_exitosa = true;
 } catch (\PDOException $e) {
-     throw new \PDOException($e->getMessage(), (int)$e->getCode());
+    $error_conexion = $e->getMessage();
 }
 ?>
