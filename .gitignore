@@ -1,0 +1,16 @@
+# Archivos del sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs y temporales
+*.log
+scratch/
+tmp/
